@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <style>
+            table,th{
+                border: 1px solid blue;
+                border-collapse: collapse;
+                
+            }
+            th{
+                text-align: center;
+            }
+                <h3> membuat table</h3>
+                <tr>
+                    <th style="width: 500px;">okee</th>
+                    <th style="width: 500px;">okee</th>
+                    <th style="width: 500px;">okee</th>
+                </tr>
+
+                <tr>
+                    <td style="width: 500px; height: 50px;">okee</td>
+                    <td style="width: 500px; height: 50px;">okee</td>
+                    <td style="width: 500px; height: 50px; text-align: center: vertical-align: bottom;">okee</td>
+                </tr>
+
+                <tr>
+                    <td style="width: 500px;">okee</td>
+                    <td style="width: 500px;">okee</td>
+                    <td style="width: 500px;">okee</td>
+                </tr>
+            </table>
+
+            
+            </style>
+        </head>
+        <body>
+
+        </body>
+
+
+
+        <title><Table></title>
+
+
+    </head>
+</html>
