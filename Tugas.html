@@ -52,3 +52,101 @@
     </footer>
 </body>
 </html> 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabel Sampah Dunia</title>
+    <style>
+        table,th,td{
+            border: 2px solid black;
+            border-collapse: collapse;
+            margin-right: 100px;
+            margin-left: 200px;
+        }
+        th,td{
+            text-align: center;
+            font-size: 20px;
+
+        }
+        tr:nth-child(even){
+            background-color: blueviolet(156, 234, 207);
+        }
+    </style>
+</head>
+<br>
+<body>
+    <h2 style="text-align: center;">4 PENDIDIKAN DI DUNIA</h2>
+    <br>
+    <br>
+    <table style="width: 800px;">
+        <tr>
+            <th>No.</th>
+            <th>Jenjang Pendidikan</th>
+            <th>Tingkat</th>
+            <th>Tahun</th>
+            
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>SD</td>
+            <td>Sekolah Dasar</td>
+            <td>2000-2006</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>SMP</td>
+            <td>Sekolah Menengah Pertama</td>
+            <td>2006-2009</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>SMA</td>
+            <td>Sekolah Menengah Atas</td>
+            <td>2009-2012</td>
+
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>S1</td>
+            <td>Sarjana</td>
+            <td>2012-2016</td>
+        </tr>
+        
+    
+
+    </table>
+    
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Pendidikan</title>
+</head>
+<body>
+    <h1>Form Pendidikan</h1>
+    <form>
+        <label for="jenjang">Jenjang Pendidikan:</label>
+        <select id="jenjang" name="jenjang">
+            <option value="sd">SD</option>
+            <option value="smp">SMP</option>
+            <option value="sma">SMA</option>
+            <option value="s1">S1</option>
+        </select><br><br>
+
+        <label for="tingkat">Tingkat:</label>
+        <input type="text" id="tingkat" name="tingkat"><br><br>
+
+        <label for="tahun">Tahun:</label>
+        <input type="text" id="tahun" name="tahun"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
